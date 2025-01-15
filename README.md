@@ -65,18 +65,18 @@ The tool will return both the generated Python code and a docstring explaining t
     
 ## Example
 Input: "Generate a Python function that prints 'Hello, World!' to the console."
-
-    Output:
+Output:
         def print_hello_world():
             print("Hello, World!")
 
     print_hello_world()
 
 Generated Documentation:
+    ```bash
     """
     Prints 'Hello, World!' to the console.
     Usage:
-        Call the function `print_hello_world()` to print the message to the console.
+        Call the function \`print_hello_world()\` to print the message to the console.
     Example:
         print_hello_world()  # Output: 'Hello, World!'
     """
