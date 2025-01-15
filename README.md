@@ -32,54 +32,65 @@ This project uses **Cohere's API** to generate Python code snippets and correspo
 ### Installation
 
 1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/ai-code-generation-tool.git
-   cd ai-code-generation-tool
+    ```bash
+    git clone https://github.com/yourusername/ai-code-generation-tool.git
+    cd ai-code-generation-tool
+    ```
 
 2. **Install Required Packages**:
     Install the required dependencies using pip:
-
     ```bash
     pip install cohere
+    ```
 
 3. **Set Up Your API Key**:
     Set your Cohere API key as an environment variable:
     ```bash
     export COHERE_API_KEY="your-cohere-api-key"
+    ```
     Alternatively, you can hard-code the API key in the script, but this is not recommended for security reasons.
 
 ## Running the Tool
----
+
 1. **Run the Python Script**:
     Use the following command to run the script:
-
     ```bash
     python3 cohere_project.py
+    ```
 
 2. **Provide a Description**:
-When prompted, enter a description for the code you want to generate. For example:
+    When prompted, enter a description for the code you want to generate. For example:
     ```bash
     "Generate a Python function that prints 'Hello, World!' to the console."
-The tool will return both the generated Python code and a docstring explaining the code.
-    
-## Example
-Input: "Generate a Python function that prints 'Hello, World!' to the console."
-Output:
-    def print_hello_world():
-        print("Hello, World!")
+    ```
+    The tool will return both the generated Python code and a docstring explaining the code.
 
-    print_hello_world()
+## Example
+
+Input:
+```bash
+"Generate a Python function that prints 'Hello, World!' to the console."
+```
+
+Output:
+```python
+def print_hello_world():
+    print("Hello, World!")
+
+print_hello_world()
+```
 
 Generated Documentation:
+```python
+"""
+Prints 'Hello, World!' to the console.
+Usage:
+    Call the function `print_hello_world()` to print the message to the console.
+Example:
+    print_hello_world()  # Output: 'Hello, World!'
+"""
 ```
-    """
-    Prints 'Hello, World!' to the console.
-    Usage:
-        Call the function \`print_hello_world()\` to print the message to the console.
-    Example:
-        print_hello_world()  # Output: 'Hello, World!'
-    """```
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
