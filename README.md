@@ -64,8 +64,7 @@ When prompted, enter a description for the code you want to generate. For exampl
 The tool will return both the generated Python code and a docstring explaining the code.
     
 ## Example
-    Input:
-    "Generate a Python function that prints 'Hello, World!' to the console."
+Input: "Generate a Python function that prints 'Hello, World!' to the console."
 
     Output:
     ```bash
@@ -74,7 +73,7 @@ The tool will return both the generated Python code and a docstring explaining t
 
     print_hello_world()
 
-    Generated Documentation:
+Generated Documentation:
     ```bash
     """
     Prints 'Hello, World!' to the console.
