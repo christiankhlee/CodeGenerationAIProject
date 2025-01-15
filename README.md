@@ -50,30 +50,29 @@ This project uses **Cohere's API** to generate Python code snippets and correspo
     Alternatively, you can hard-code the API key in the script, but this is not recommended for security reasons.
 
 ## Running the Tool
-    1. **Run the Python Script**:
+---
+1. **Run the Python Script**:
     Use the following command to run the script:
 
     ```bash
     python3 cohere_project.py
 
-    2. **Provide a Description**:
+2. **Provide a Description**:
     When prompted, enter a description for the code you want to generate. For example:
     ```bash
     "Generate a Python function that prints 'Hello, World!' to the console."
     The tool will return both the generated Python code and a docstring explaining the code.
     
-    ## Example
-    Input:
-    "Generate a Python function that prints 'Hello, World!' to the console."
-
-    Output:
+## Example
+Input:
+"Generate a Python function that prints 'Hello, World!' to the console."
+Output:
     ```python
     def print_hello_world():
         print("Hello, World!")
 
     print_hello_world()
-    Generated Documentation:
-
+Generated Documentation:
     ```python
     """
     Prints 'Hello, World!' to the console.
