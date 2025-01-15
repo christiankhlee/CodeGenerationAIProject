@@ -61,23 +61,23 @@ This project uses **Cohere's API** to generate Python code snippets and correspo
 When prompted, enter a description for the code you want to generate. For example:
     ```bash
     "Generate a Python function that prints 'Hello, World!' to the console."
-The tool will return both the generated Python code and a docstring explaining the code.
+    The tool will return both the generated Python code and a docstring explaining the code.
     
 ## Example
-Input:
-"Generate a Python function that prints 'Hello, World!' to the console."
+    Input:
+    "Generate a Python function that prints 'Hello, World!' to the console."
 
-Output:
+    Output:
     ```bash
         def print_hello_world():
             print("Hello, World!")
 
     print_hello_world()
 
-Generated Documentation:
+    Generated Documentation:
+    ```bash
     """
     Prints 'Hello, World!' to the console.
-
     Usage:
         Call the function `print_hello_world()` to print the message to the console.
 
