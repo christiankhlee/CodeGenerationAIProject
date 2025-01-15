@@ -75,16 +75,15 @@ Output:
     print_hello_world()
 
 Generated Documentation:
-    ```bash
-        """
-        Prints 'Hello, World!' to the console.
+    """
+    Prints 'Hello, World!' to the console.
 
-        Usage:
-            Call the function `print_hello_world()` to print the message to the console.
+    Usage:
+        Call the function `print_hello_world()` to print the message to the console.
 
-        Example:
-            print_hello_world()  # Output: 'Hello, World!'
-        """
+    Example:
+        print_hello_world()  # Output: 'Hello, World!'
+    """
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
